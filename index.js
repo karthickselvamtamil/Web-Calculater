@@ -9,7 +9,8 @@ function calculate(){
     }
     catch(err)
     {
-       outputscreen.value = "Enter Valid Key"
+        outputscreen.value = "Enter Valid Key";
+        
     }
 } 
 function Clear(){
