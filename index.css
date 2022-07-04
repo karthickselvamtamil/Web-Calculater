@@ -18,7 +18,7 @@ body
 .container
 {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +46,8 @@ input
     border: none;
     border-radius: 30px;
     color: rgba(70, 70, 70, .7);
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: bold;
     text-align: end;
     margin: auto;
     margin-top: 20px;
@@ -91,8 +92,6 @@ button:active
     font-size: 48px;
     text-align: center;
 }
-
-
 marquee
 {
     color: red;
